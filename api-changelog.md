@@ -3,6 +3,9 @@
 - **Uprawnienia**  
   Rozszerzono POST `/permissions/query/personal/grants` o `OwnerPermissionScope`, zwracające uprawnienia właścicielskie.
 
+- **OpenAPI**  
+  Uzupełniono dokumentację odpowiedzi błędów o kod `21001` (Nieczytelna treść) ze szczegółami {`szczegółowy opis błędu`}. Zmiana ma charakter dokumentacyjny; kod był zwracany przez API również wcześniej.
+
 ### Wersja 2.8.1
 | Środowisko | Data wdrożenia |
 | ---------- | -------------: |
