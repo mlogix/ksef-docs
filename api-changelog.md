@@ -1,5 +1,8 @@
 ## Zmiany w API 2.0
 
+- **Uprawnienia**  
+  Rozszerzono POST `/permissions/query/personal/grants` o `OwnerPermissionScope`, zwracające uprawnienia właścicielskie.
+
 ### Wersja 2.8.1
 | Środowisko | Data wdrożenia |
 | ---------- | -------------: |

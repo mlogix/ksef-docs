@@ -15782,6 +15782,19 @@
           }
         }
       },
+      "OwnerPermissionScope": {
+        "enum": [
+          "CredentialsManage",
+          "CredentialsRead",
+          "InvoiceWrite",
+          "InvoiceRead",
+          "Introspection",
+          "SubunitManage",
+          "EnforcementOperations",
+          "CollectiveIdentifierManage"
+        ],
+        "type": "string"
+      },
       "PartUploadRequest": {
         "required": [
           "headers",
@@ -17402,6 +17415,14 @@
               "$ref": "#/components/schemas/PersonalPermission"
             },
             "description": "Lista odczytanych uprawnień."
+          },
+          "ownerPermissions": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OwnerPermissionScope"
+            },
+            "description": "Lista uprawnień właścicielskich.",
+            "nullable": true
           },
           "hasMore": {
             "type": "boolean",
