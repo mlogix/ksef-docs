@@ -1,5 +1,12 @@
 ## Zmiany w API 2.0
 
+### Wersja 2.9.0
+| Środowisko | Data wdrożenia |
+| ---------- | -------------: |
+| **TEST**   |     13.10.2026 |
+| **DEMO**   |     13.10.2026 |
+| **PROD**   |     15.10.2026 |
+
 - **Uprawnienia**  
   Rozszerzono POST `/permissions/query/personal/grants` o `OwnerPermissionScope`, zwracające uprawnienia właścicielskie.
 
